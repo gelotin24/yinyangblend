@@ -1,0 +1,220 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+p{
+  color: grey;
+}
+/*Top Section*/
+#title{
+  background-color: #974928;
+  padding: 3% 15% 5%;
+}
+.yin{
+  color: #151618;
+}
+.blend{
+  color: #D6D6D6;
+}
+.brand-title{
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+.links{
+  font-family: 'Montserrat',sans-serif;
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.navbar{
+  padding: 0 0 4.5rem;
+}
+.title-quote{
+  font-family: 'Montserrat',sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: #151618;
+}
+.btn-dl{
+  margin: 5% 3% 5% 0;
+}
+.fab-icon{
+  margin-right: 10px;
+}
+.item-img{
+  left: 15%;
+  position: relative;
+}
+/*Features*/
+#features{
+  padding: 7% 14%;
+  text-align: center;
+}
+.fa-icon{
+  margin: 1rem;
+  color: #A68FB6;
+}
+.fa-icon:hover{
+  color: #6A5ACD;
+}
+.feature-title{
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+.feature-col{
+  padding: 5%;
+}
+/*Testimonial*/
+#testimonials{
+  background-color: #C8A27C;
+  text-align: center;
+  color: white;
+}
+.testimonial-image{
+  border-radius: 50%;
+  width: 10%;
+  margin: 20px;
+}
+.testimonial-text{
+  font-weight: 700;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.carousel-item{
+  padding: 7% 14%;
+}
+/*Press*/
+#press{
+  background-color: #C8A27C;
+  text-align: center;
+}
+.press-logo{
+  width: 17%;
+  margin: 20px 20px 50px;
+}
+/*Pricing*/
+#pricing{
+  text-align: center;
+  padding: 100px;
+}
+.price-heading,.price-text{
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+/*Call to Action*/
+#cta{
+  background-color: #6A5ACD;
+  text-align: center;
+  padding: 7% 14%;
+}
+.cta-title{
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+}
+/*Footer*/
+#footer{
+  text-align: center;
+  padding: 7% 14%;
+}
+.foot-icon{
+  padding: 20px 10px;
+}
+@media (max-width: 1024px){
+  .title-quote{
+    font-size: 3rem;
+  }
+  .item-img{
+    position: relative;
+    left: 0;
+    width: 95%;
+  }
+}
+@media (max-width: 768px) {
+  .item-img{
+    position: relative;
+    left: 100px;
+    width: 60%;
+  }
+  .column-one{
+    text-align: center;
+  }
+}
+@media (max-width: 426px) {
+  .title-quote{
+    font-size: 2.5rem;
+  }
+  .column-one{
+    text-align: center;
+  }
+  .item-img{
+    position: relative;
+    left: 9%;
+    width: 85%;
+  }
+  .testimonial-text{
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+  .price-heading,.price-text{
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+  .cta-title{
+    font-weight: 900;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: white;
+  }
+  .offers{
+    font-size: 0.8rem;
+  }
+  .rank{
+    font-size: 1rem;
+  }
+  #pricing{
+    padding: 50px;
+  }
+}
+@media (max-width: 376px) {
+  .title-quote{
+    font-size: 2rem;
+  }
+  .column-one{
+    text-align: center;
+  }
+  .item-img{
+    position: relative;
+    left: 9%;
+    width: 85%;
+  }
+}
+@media (max-width: 321px) {
+  .title-quote{
+    font-size: 1.5rem;
+  }
+  .column-one{
+    text-align: center;
+  }
+  .item-img{
+    position: relative;
+    left: 12%;
+    width: 75%;
+  }
+  .brand-title{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+  }
+  .navbar{
+    padding: 0 0 1.5rem;
+  }
+}
